@@ -226,7 +226,7 @@ header .logo img{display:block;}
 
 header .header_top .alignright a{float:left; color:#FFF; margin:6px 15px 0px 0px; font-style:italic;}
 
-header .header_top .alignright a{background:#918473; color:#fff; padding:9px 20px; font-weight:bold;}
+header .header_top .alignright a{background:#ee4b53; color:#fff; padding:9px 20px; font-weight:bold;}
 
 header .header_top .alignright a:hover{background:#faf4e1; color:#564338;}
 
@@ -258,7 +258,7 @@ header .header_top .alignright{margin-bottom:0px;}
 
 .menu{position:relative;}
 
-#menu-container:after{background:url(images/menu_strip.png) no-repeat; background-size:cover; content:""; height:10px; width:100%; z-index:999; float:left; margin:-10px 0px 0px;}
+/*#menu-container:after{background:url(images/menu_strip.png) no-repeat; background-size:cover; content:""; height:10px; width:100%; z-index:999; float:left; margin:-10px 0px 0px;}*/
 
 .menu ul{margin:0px auto; padding:0px;}
 
