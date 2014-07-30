@@ -264,7 +264,7 @@ header .header_top .alignright{margin-bottom:0px;}
 
 .menu ul li{display:inline-block; position:relative;}
 
-.menu ul li:after{border-right:1px solid #644b3d; background:#321f15; float:left; display:inline; width:1px; height:100%; position:absolute; top:0px; right:0px; content:"";}
+.menu ul li:after{border-right:1px solid #644b3d; background:#321f15; float:left; display:inline; width:1px; height:95%; position:absolute; top:0px; right:0px; content:"";}
 
 .menu ul li a{color:#f2eac0; display:block; font-size:18px; text-transform:uppercase; padding:15px 14px 13px; float:left; text-shadow:1px 1px 1px #000000;}
 
