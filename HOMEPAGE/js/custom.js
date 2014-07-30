@@ -62,18 +62,18 @@ jQuery(document).ready(function($){
 	var $map = $('#map');
 	if( $map.length ) {
 		$map.gMap({
-			address: 'No: 58 A, East Madison St, Baltimore, MD, USA',
+			address: '1691 Kettering Street Irvine, CA 92614',
 			zoom: 16,
-			markers: [ { 'address' : 'No: 58 A, East Madison St, Baltimore, MD, USA' } ]
+			markers: [ { 'address' : '1691 Kettering Street Irvine, CA 92614' } ]
     });
 	}
 
 	$map = $('#footer_map');
 	if( $map.length ) {
 		$map.gMap({
-			address: 'No: 58 A, East Madison St, Baltimore, MD, USA',
+			address: '1691 Kettering Street Irvine, CA 92614',
 			zoom: 16,
-			markers: [ { 'address' : 'No: 58 A, East Madison St, Baltimore, MD, USA' } ]
+			markers: [ { 'address' : '1691 Kettering Street Irvine, CA 92614' } ]
 		});
 	}
 	
