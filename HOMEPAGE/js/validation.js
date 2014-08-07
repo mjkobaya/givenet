@@ -14,12 +14,11 @@ jQuery(document).ready(function($){
 					var action = $(This).attr('action');
 				
 					var data_value = unescape($(This).serialize());
-					$.ajax({
-					type: "POST",
-					url:action,
-					data: data_value,
+					document.write('Hello World!');
+
+					$.ajax({type: "POST", url:action,data: data_value,
 					error: function (xhr, status, error) {
-						confirm('The page save failed.');
+						confirm('The page save failed!');
 					},
 					success: function (response) {
 						This.prev('.ajax_contact_msg').html(response);
@@ -34,8 +33,8 @@ jQuery(document).ready(function($){
 			//VALIDATION...
 			$(this).validate({
 				rules: { 
-				txtname: { required: true },
-				txtemail: { required: true, email: true }
+				name: { required: true },
+				email: { required: true, email: true }
 			},
 			errorPlacement: function(error, element) { }
 			});
