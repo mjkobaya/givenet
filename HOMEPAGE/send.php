@@ -40,7 +40,7 @@ $mail->Subject = 'Givenet Contact Form';
 $mail->AddAddress('givenet.net@gmail.com'); // To which address the mail to be delivered
 $mail->Body = $email_message;
 $mail->Send();
-$msg = 'Your message have been submitted.  If you do not get a response back within 48 hours please contact us at (888)-432-3387.';
+$msg = 'Your message have been submitted.';
 echo $msg;
 }
 
